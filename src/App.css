@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+  color: #26324b;
+  text-align: center;
+
+}
+
+nav {
+  background-color: #1e2a4a;
+  color: white;
+  padding: 22px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h2 {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+
+.welcome {
+  background-color: #e1edf8;
+  text-align: center;
+  padding: 55px 20px;
+}
+
+.welcome h1 {
+  color: #1e2a4a;
+  font-size: 34px;
+  margin-bottom: 12px;
+  text-align: center;
+
+}
+
+.welcome p {
+  color: #61718a;
+  font-size: 17px;
+}
+
+/* Student Cards */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+}
+
+.card {
+  background-color: white;
+  width: 280px;
+  padding: 35px 20px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(30, 42, 74, 0.10);
+  border-bottom: 4px solid #6baed6;
+  transition: transform 0.3s;
+}
+
+.card h2 {
+  color: #263c68;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.card p {
+  color: #65738b;
+  margin: 12px 0;
+  font-size: 15px;
+}
